@@ -9,3 +9,5 @@ La Fábrica Bellavista Oveja Tomé es un símbolo del desarrollo industrial del 
 - - - - - 
 
 ![henriquez](https://github.com/user-attachments/assets/61e7d08a-28ef-4b33-9d77-78726695e332)
+
+- - - - - 
