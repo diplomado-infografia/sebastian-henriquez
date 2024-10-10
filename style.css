@@ -1,0 +1,76 @@
+/* importando las fuente */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&display=swap");
+/* para ajustar el ancho de párrafos */
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+}
+:root {
+    --bs-font-sans-serif: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+      background: rgba(229, 226, 226, 1);
+            }
+
+             header{
+                background:transparent url('img/duotone2.png') top center no-repeat;
+                background-size:100% auto;
+                padding-top:34vw;
+            }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+}
+
+h1 {
+                font-size: calc(2rem + 1.5vw);
+                color: #8c4250;
+            }
+
+
+.social-media {
+    display: flex;
+    justify-content: center; /* Centra los iconos horizontalmente */
+    gap: 15px; /* Espaciado entre los iconos */
+}
+
+.social-media a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #333; /* Color del icono */
+    font-size: 60px; /* Tamaño del icono */
+}
+
+.social-media a:hover {
+    color: #8c4250; /* Color al pasar el ratón (puedes cambiarlo) */
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 70px 0
+}
+
+.texto-responsivo {
+    margin-top: 10vh;
+    margin-right: 5%; 
+    margin-left: 5%; 
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+}
+
+/* para ajustar algo que queda lost in translation */
+em,
+cite {
+    font-weight: 600;
+    font-style: normal;
+}
